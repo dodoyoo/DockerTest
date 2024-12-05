@@ -44,3 +44,18 @@
 
 
 # Docker 사용 시 에러
+**에러 상황**
+> Docker desktop을 다운을 받고 내 로컬 터미널에서 docker가 다운이 되어 있지 않다는 것을 볼 수 있었다.
+> Docker 내에서는 docker가 다운받아져 있는것이 확인 되었다.
+
+
+![](https://github.com/user-attachments/assets/6129609f-e52f-44a5-ae5b-5ab5510973ef) | ![](https://github.com/user-attachments/assets/1f6c4a10-d36c-4667-ba4a-837ca7ca5b8a)
+--|--|
+
+**에러 해결**
+- 에러를 해결하기 위해서 Docker가 설치되어있는 경로를 파악했다.
+- 이후 환경 변수를 다르게 설정을 해주었으며, port 또한 내 local만 사용할 수 있도록 하였다.
+- Docker를 실행시키고 local에서 확인을 하니 문제 없이 잘 돌아가며 문제를 해결하였다.
+
+![](https://github.com/user-attachments/assets/17269571-4a0a-4010-9dbc-c14eb14f30db) | ![](https://github.com/user-attachments/assets/d1d27579-aafe-40f5-9a5e-f856a6d3aed1) | ![](https://github.com/user-attachments/assets/306b66cc-fd22-4741-9ccc-29f2b40d4c47)
+---|---|--|
